@@ -9,7 +9,7 @@ describe('my own map-like methods', function() {
       dune = ["paul", "gurney", "vladimir", "jessica", "chani"]
       expect(map(dune, function(a){ return a})).to.eql(dune)
     })
-  })
+  }) 
 
   describe("map returns an array with the original values multiplied by 2", function() {
     it("transforms correctly", function(){
